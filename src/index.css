@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.45;
+}
+
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.grid-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+  grid-gap: 1em;
+}
+
+img {
+  padding: 1rem;
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.bg-img.lt-bg-img {
+  margin-top: 1rem;
+}
+.bg-img.af-bg-img,
+.bg-img.diag-bg-img,
+.bg-img.tent-bg-img {
+  margin-top: 5rem;
+}
+
+.lt-bg-img {
+  background-image: url("../src/assets/images/hammock-beach.jpg");
+}
+.af-bg-img {
+  background-image: url("../src/assets/images/AFrameImg.jpg");
+}
+.diag-bg-img {
+  background-image: url("../src/assets/images/half-pyramid.jpg");
+}
+.tent-bg-img {
+  background-image: url("../src/assets/images/lavvu-at-night.jpg");
+}
+
+.config-heading {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 100%;
+}
+
+.nav-menu {
+  transition: 750ms;
+}
