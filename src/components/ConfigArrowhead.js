@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import TarpContext from "../TarpContext";
 import { FaTimes, FaCheck } from "react-icons/fa";
 
-import ArrowheadImg from "../assets/images/Arrow_Wedge.png";
+import ArrowheadImg from "../assets/images/ArrowWedge2.png";
 
 function Config_Arrowhead() {
   const state = useContext(TarpContext);

@@ -1,26 +1,26 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import TarpContext from "../TarpContext";
 import ScrollToTop from "../components/ScrollToTop";
 
-import Config_LT from "../components/ConfigLT";
-import Config_FR from "../components/ConfigFR";
-import Config_BWFR from "../components/ConfigBWFR";
-import Config_AF from "../components/ConfigAF";
-import Config_SWAF from "../components/ConfigSWAF";
-import Config_OS from "../components/ConfigOS";
-import Config_TT from "../components/ConfigTT";
-import Config_FR_CFly from "../components/ConfigFRCFly";
-import Config_AF_CFly from "../components/ConfigAFCFly";
-import Config_Dia from "../components/ConfigDia";
-import Config_HexDia from "../components/ConfigHexDia";
-import Config_Arrowhead from "../components/ConfigArrowhead";
-import Config_PP from "../components/ConfigPP";
-import Config_Adir from "../components/ConfigAdir";
-import Config_SWLT from "../components/ConfigSWLT";
-import Config_Lavvu from "../components/ConfigLavvu";
-import Config_Miners from "../components/ConfigMiners";
-import Config_Bakers from "../components/ConfigBakers";
+import ConfigLT from "../components/ConfigLT";
+import ConfigFR from "../components/ConfigFR";
+import ConfigBWFR from "../components/ConfigBWFR";
+import ConfigAF from "../components/ConfigAF";
+import ConfigSWAF from "../components/ConfigSWAF";
+import ConfigOS from "../components/ConfigOS";
+import ConfigTT from "../components/ConfigTT";
+import ConfigFRCFly from "../components/ConfigFRCFly";
+import ConfigAFCFly from "../components/ConfigAFCFly";
+import ConfigDia from "../components/ConfigDia";
+import ConfigHexDia from "../components/ConfigHexDia";
+import ConfigArrowhead from "../components/ConfigArrowhead";
+import ConfigPP from "../components/ConfigPP";
+import ConfigAdir from "../components/ConfigAdir";
+import ConfigSWLT from "../components/ConfigSWLT";
+import ConfigLavvu from "../components/ConfigLavvu";
+import ConfigMiners from "../components/ConfigMiners";
+import ConfigBakers from "../components/ConfigBakers";
 
 function Results() {
   const state = useContext(TarpContext);
@@ -63,10 +63,10 @@ function Results() {
           <div className="bg-img lt-bg-img">
             <h2 className="config-heading text-3xl m-6 text-teal-700 font-semibold text-center sm:text-4xl">Lean-To Configurations</h2>
           </div>
-          <Config_LT />
-          <Config_FR />
-          <Config_FR_CFly />
-          <Config_BWFR />
+          <ConfigLT />
+          <ConfigFR />
+          <ConfigFRCFly />
+          <ConfigBWFR />
           <p className="mt-1 text-center">
             Go to{" "}
             <Link to="/configs#lean-to-configuration" className="font-bold text-blue-600 hover:text-blue-800 hover:underline hover:underline-offset-2">
@@ -79,11 +79,11 @@ function Results() {
           <div className="bg-img af-bg-img">
             <h2 className="config-heading text-3xl m-6 text-teal-700 font-semibold text-center sm:text-4xl">A-Frame Configurations</h2>
           </div>
-          <Config_AF />
-          <Config_AF_CFly />
-          <Config_SWAF />
-          <Config_OS />
-          <Config_TT />
+          <ConfigAF />
+          <ConfigAFCFly />
+          <ConfigSWAF />
+          <ConfigOS />
+          <ConfigTT />
           <p className="mt-2 text-center">
             Go to{" "}
             <Link to="/configs#aframe-configuration" className="font-bold text-blue-600 hover:text-blue-800 hover:underline hover:underline-offset-2">
@@ -96,11 +96,11 @@ function Results() {
           <div className="bg-img diag-bg-img">
             <h2 className="config-heading text-3xl m-6 text-teal-700 font-semibold text-center sm:text-4xl">Diagonal Configurations</h2>
           </div>
-          <Config_Dia />
-          <Config_HexDia />
-          <Config_Arrowhead />
-          <Config_PP />
-          <Config_Adir />
+          <ConfigDia />
+          <ConfigHexDia />
+          <ConfigPP />
+          <ConfigArrowhead />
+          <ConfigAdir />
           <p className="mt-6 text-center">
             Go to{" "}
             <Link to="/configs#diagonal-configuration" className="font-bold text-blue-600 hover:text-blue-800 hover:underline hover:underline-offset-2">
@@ -113,10 +113,10 @@ function Results() {
           <div className="bg-img tent-bg-img">
             <h2 className="config-heading text-3xl m-6 text-teal-700 font-semibold text-center sm:text-4xl">Tent Configurations</h2>
           </div>
-          <Config_SWLT />
-          <Config_Lavvu />
-          <Config_Miners />
-          <Config_Bakers />
+          <ConfigSWLT />
+          <ConfigLavvu />
+          <ConfigMiners />
+          <ConfigBakers />
           <p className="mt-3 text-center">
             Go to{" "}
             <Link to="/configs#tent-configuration" className="font-bold text-blue-600 hover:text-blue-800 hover:underline hover:underline-offset-2">

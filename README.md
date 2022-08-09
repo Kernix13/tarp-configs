@@ -19,11 +19,9 @@ This is personal project since I practice bushcraft and wilderness survival tech
 
 IMPORTANT TO-DO's:
 
-1. **MERGE BRANCH TO MASTER LOCALLY**
 1. Need US and Metric radio buttons on the form
 1. The import of all the tarp designs in Configs.js to get the `src` to work - have to find a better way
    1. Why doesn't my img src work in Configs.js?
-1. useEffect **cleanup!!!** - yes, stop the focus when you are on another page? https://dmitripavlutin.com/react-useref-guide/ -
 1. A page reload loses state and therefore `/configs` content - `localStorage`?
 1. Double check the 2 angles for all Side-Wall LT and Holden Tent configs.
 1. Double check Miners tent constants since it has 3D geometry (Geek37).
@@ -40,8 +38,6 @@ LESS IMPORTANT TO DO:
 
 1. button colors change?
 1. Consider adding _Half-Pyramid_ and _Forest Tent_ into A-Frame category, and _Trapezoid_ and _Tetra_ into Tents. Which means I need to add 1-2 more in Lean-To (Envelope?) and Diagonal (Octagon? Forrester? Bivi Bag Cornet)
-1. no DaisyUI clsses? `npm uninstall daisyui`?
-1. added Config.js as a ES6 class - why? Where? Must have deleted it.
 
 ## Contributing
 
