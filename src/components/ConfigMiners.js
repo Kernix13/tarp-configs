@@ -61,7 +61,7 @@ function Config_Miners() {
     Miners_tent.calcs();
   }
 
-  console.log(finalObj);
+  // console.log(finalObj);
 
   if (finalObj.length === 0) {
     return (

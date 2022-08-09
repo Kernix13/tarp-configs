@@ -1,3 +1,4 @@
+// import ltfold0 from "../assets/images/FoldLT.png";
 import ltfold0 from "../assets/images/FoldLT.png";
 import ltfold1 from "../assets/images/FoldFRLT50.png";
 import ltfold2 from "../assets/images/FoldFRLT33.png";

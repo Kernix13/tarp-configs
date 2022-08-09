@@ -2,6 +2,14 @@ import AllConfigs from "../data/AllConfigs";
 import ConfigTypes from "../data/ConfigTypes";
 import ScrollToTop from "../components/ScrollToTop";
 
+const leantoimages = ["FoldLT.png", "FoldFRLT50.png", "FoldFRLT33.png", "FoldFRLT25.png", "FoldFRCFly.png", "FoldBWLT25.png", "FoldBWLT33.png", "FoldBWFRLT25.png", "FoldBWFRLT33.png"];
+
+const aframeimages = ["FoldFRLT50.png", "FoldFRLT33.png", "FoldFRLT25.png", "FoldSWAF25.png", "FoldSWAF33.png", "FoldFRCFly.png", "FoldFRCFly.png", "FoldFRCFly.png"];
+
+const diagonalimages = ["FoldDiaPP.png", "FoldDiaPP.png", "FoldAdir.png", "FoldHexD.png", "FoldArrow.png"];
+
+const tentimages = ["FoldSWLT.png", "FoldSWLT.png", "FoldSWLT.png", "FoldHolden.png", "FoldHolden.png", "FoldHolden.png", "FoldHolden.png", "FoldHolden.png", "FoldMiners.png", "FoldBakers.png", "FoldFRCFly.png"];
+
 function Configs() {
   const categories = ["Lean-To", " A-Frame", " Diagonal", " Tent"];
 
@@ -126,8 +134,9 @@ function Configs() {
         {AllConfigs[0].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
+              {/* <img src={config.imgUrl} alt={config.name + ` tarp folds`} className="w-full m-0 p-0" /> */}
               {/* <img src={leantoimages[i]} alt={config.name} className="w-full m-0 p-0" /> */}
+              <img src={process.env.PUBLIC_URL + leantoimages[i]} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -185,7 +194,8 @@ function Configs() {
         {AllConfigs[1].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 mb-8 xl:mb-0 xl:self-start">
-              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
+              {/* <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" /> */}
+              <img src={process.env.PUBLIC_URL + aframeimages[i]} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="a-frame" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -236,7 +246,8 @@ function Configs() {
         {AllConfigs[2].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
+              {/* <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" /> */}
+              <img src={process.env.PUBLIC_URL + diagonalimages[i]} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -284,7 +295,8 @@ function Configs() {
         {AllConfigs[3].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
+              {/* <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" /> */}
+              <img src={process.env.PUBLIC_URL + tentimages[i]} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
