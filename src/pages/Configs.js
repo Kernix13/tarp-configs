@@ -2,31 +2,6 @@ import AllConfigs from "../data/AllConfigs";
 import ConfigTypes from "../data/ConfigTypes";
 import ScrollToTop from "../components/ScrollToTop";
 
-import ltfold0 from "../assets/images/FoldLT.png";
-import ltfold1 from "../assets/images/FoldFRLT50.png";
-import ltfold2 from "../assets/images/FoldFRLT33.png";
-import ltfold3 from "../assets/images/FoldFRLT25.png";
-import ltfold4 from "../assets/images/FoldFRCFly.png";
-import ltfold5 from "../assets/images/FoldBWLT25.png";
-import ltfold6 from "../assets/images/FoldBWLT33.png";
-import ltfold7 from "../assets/images/FoldBWFRLT25.png";
-import ltfold8 from "../assets/images/FoldBWFRLT33.png";
-import swaf25 from "../assets/images/FoldSWAF25.png";
-import swaf33 from "../assets/images/FoldSWAF33.png";
-import diamond from "../assets/images/FoldDiaPP.png";
-import adirondack from "../assets/images/FoldAdir.png";
-import hexd from "../assets/images/FoldHexD.png";
-import arrowhead from "../assets/images/FoldArrow.png";
-import swlt from "../assets/images/FoldSWLT.png";
-import holden from "../assets/images/FoldHolden.png";
-import miners from "../assets/images/FoldMiners.png";
-import bakers from "../assets/images/FoldBakers.png";
-
-const leantoimages = [ltfold0, ltfold1, ltfold2, ltfold3, ltfold4, ltfold5, ltfold6, ltfold7, ltfold8];
-const aframeimages = [ltfold1, ltfold2, ltfold3, swaf25, swaf33, ltfold4, ltfold4, ltfold4];
-const diagonalimages = [diamond, diamond, adirondack, hexd, arrowhead];
-const tentimages = [swlt, swlt, swlt, holden, holden, holden, holden, holden, miners, bakers, ltfold4];
-
 function Configs() {
   const categories = ["Lean-To", " A-Frame", " Diagonal", " Tent"];
 
@@ -151,8 +126,8 @@ function Configs() {
         {AllConfigs[0].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              {/* <img src={config.imgUrl} alt={config.name} /> */}
-              <img src={leantoimages[i]} alt={config.name} className="w-full m-0 p-0" />
+              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
+              {/* <img src={leantoimages[i]} alt={config.name} className="w-full m-0 p-0" /> */}
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -210,7 +185,7 @@ function Configs() {
         {AllConfigs[1].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 mb-8 xl:mb-0 xl:self-start">
-              <img src={aframeimages[i]} alt={config.name} className="w-full m-0 p-0" />
+              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="a-frame" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -261,7 +236,7 @@ function Configs() {
         {AllConfigs[2].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              <img src={diagonalimages[i]} alt={config.name} className="w-full m-0 p-0 " />
+              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
@@ -309,7 +284,7 @@ function Configs() {
         {AllConfigs[3].map((config, i) => (
           <div key={i} className="flex flex-col justify-center items-center border border-solid border-slate-400 bg-slate-100 p-4 shadow-md shadow-slate-500 md:flex-row xl:items-start">
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
-              <img src={tentimages[i]} alt={config.name} className="w-full m-0 p-0 " />
+              <img src={config.imgUrl} alt={config.name} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
