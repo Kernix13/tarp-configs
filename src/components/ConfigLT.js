@@ -3,11 +3,8 @@ import TarpContext from "../TarpContext";
 import { FaTimes, FaCheck } from "react-icons/fa";
 
 import LEANTOImg from "../assets/images/LeanTo.png";
-import ltfold0 from "../assets/images/FoldLT.png";
 import BWLT25Img from "../assets/images/BWLT25.png";
-import ltfold5 from "../assets/images/FoldBWLT25.png";
 import BWLT33Img from "../assets/images/BWLT33.png";
-import ltfold6 from "../assets/images/FoldBWLT33.png";
 
 function ConfigLT() {
   const state = useContext(TarpContext);
@@ -26,14 +23,13 @@ function ConfigLT() {
   const userTarp = [state.tarpLength, state.tarpWidth];
 
   class Config_LT {
-    constructor(configName, len, width, mult1, mult2, img, foldImg) {
+    constructor(configName, len, width, mult1, mult2, img) {
       this.configName = configName;
       this.len = len;
       this.width = width;
       this.mult1 = mult1;
       this.mult2 = mult2;
       this.img = img;
-      this.foldImg = foldImg;
     }
 
     alpha = 30;
@@ -45,7 +41,6 @@ function ConfigLT() {
       const tarpSize = [this.len, this.width];
       const sleepClear = l - state.height;
       const configImg = this.img;
-      const configFoldImg = this.foldImg;
 
       for (let i = this.beta; i >= this.alpha; i--) {
         const ridgeHt = Math.round(Math.sin(i * deg2Rad) * (w * this.mult1) + w * this.mult2);
@@ -70,7 +65,7 @@ function ConfigLT() {
         const chairTarpHtClear = chairTarpHt - state.chairHeight;
         const chairCheck = ridgeHeight - chairTarpHtClear;
 
-        outputObj = tarpSize.concat({ sleepClear, cover, coverClear, ridgeHeight, sitTarpHtClear, chairTarpHtClear, angle: i, configName: this.configName, ridgeHt, sleepDiagClr, configImg, chairCheck, chairTarpHt, configFoldImg });
+        outputObj = tarpSize.concat({ sleepClear, cover, coverClear, ridgeHeight, sitTarpHtClear, chairTarpHtClear, angle: i, configName: this.configName, ridgeHt, sleepDiagClr, configImg, chairCheck, chairTarpHt });
 
         if (sitTarpHtClear < 4 || chairTarpHtClear < 1) {
           break;
@@ -80,13 +75,13 @@ function ConfigLT() {
     }
   }
 
-  const Lean_To = new Config_LT("Lean-To", userTarp[0], userTarp[1], 1, 0, LEANTOImg, ltfold0);
+  const Lean_To = new Config_LT("Lean-To", userTarp[0], userTarp[1], 1, 0, LEANTOImg);
   Lean_To.calcs();
 
-  const BWLT_25 = new Config_LT("Back-Wall LT 25", userTarp[0], userTarp[1], 0.75, 0.25, BWLT25Img, ltfold5);
+  const BWLT_25 = new Config_LT("Back-Wall LT 25", userTarp[0], userTarp[1], 0.75, 0.25, BWLT25Img);
   BWLT_25.calcs();
 
-  const BWLT_33 = new Config_LT("Back-Wall LT 33", userTarp[0], userTarp[1], 0.667, 0.333, BWLT33Img, ltfold6);
+  const BWLT_33 = new Config_LT("Back-Wall LT 33", userTarp[0], userTarp[1], 0.667, 0.333, BWLT33Img);
   BWLT_33.calcs();
 
   console.log(finalObj);
