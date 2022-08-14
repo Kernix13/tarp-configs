@@ -2,7 +2,7 @@
 
 My 3rd portfolio project using React and Tailwind CSS.
 
-This React app calculates the ridgeline height for 33 different tarp configurations based on 21 types of tarp shelters given user-supplied body dimensions and tarp size.
+This React app calculates the ridgeline height for 33 different tarp configurations based on 21 types of tarp shelters given user-supplied body dimensions and tarp size. It also returns whether or not you can 1) sit on the ground under the tarp and 2) sit in your chair under the tarp.
 
 This application would be of interest to bushcrafters, wilderness survivalists, backpackers and campers.
 
