@@ -1,5 +1,11 @@
 # Tarp Configurations React App
 
+![GitHub language count](https://img.shields.io/github/languages/count/Kernix13/tarp-configs?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/Kernix13/tarp-configs?style=flat-square)
+![GitHub top language](https://img.shields.io/github/directory-file-count/Kernix13/tarp-configs?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Kernix13/tarp-configs?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/Kernix13/tarp-configs?style=flat-square)
+
 My 3rd portfolio project which features React and Tailwind CSS.
 
 This React app calculates the ridgeline height for 33 different tarp configurations based on 21 types of tarp shelters given user-supplied body dimensions and tarp size. It also returns whether or not you can 1) sit on the ground under the tarp and 2) sit in your chair under the tarp.
