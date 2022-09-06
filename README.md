@@ -14,6 +14,8 @@ This application would be of interest to bushcrafters, wilderness survivalists, 
 
 This is personal project since I practice bushcraft and wilderness survival techniques. Check out the [live version](https://timely-longma-59205e.netlify.app/) on Netlify.
 
+I need some help on the geometry for the Tent configurations. I will be contacting someone about that but also look for an issue on the topic.
+
 ## Features
 
 1. The `Results` page lists the ridgeline height, resulting lean angle for each tarp design that fits your height. It also calculates whether or not you have room to sit on the ground and/or in your chair under the tarp.
