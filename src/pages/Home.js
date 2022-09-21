@@ -1,15 +1,10 @@
-import React, { useContext, useRef, useEffect } from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import TarpContext from "../TarpContext";
 
 function Home() {
   const state = useContext(TarpContext);
-  // const heightRef = useRef();
   const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   heightRef.current.focus();
-  // }, [state.height]);
 
   const handleSubmit = e => {
     e.preventDefault();
