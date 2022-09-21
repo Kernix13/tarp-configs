@@ -4,12 +4,12 @@ import TarpContext from "../TarpContext";
 
 function Home() {
   const state = useContext(TarpContext);
-  const heightRef = useRef();
+  // const heightRef = useRef();
   const navigate = useNavigate();
 
-  useEffect(() => {
-    heightRef.current.focus();
-  }, [state.height]);
+  // useEffect(() => {
+  //   heightRef.current.focus();
+  // }, [state.height]);
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -48,7 +48,7 @@ function Home() {
               <label className="text-black text-xl lg:text-base pt-4 sm:pt-0" htmlFor="height">
                 Height:
               </label>
-              <input type="number" className="border-solid border-2 border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.height} onChange={e => state.setHeight(e.target.value)} ref={heightRef} />
+              <input type="number" className="border-solid border-2 border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.height} onChange={e => state.setHeight(e.target.value)} />
             </div>
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
               <label className="text-black text-xl lg:text-base" htmlFor="body-width">
