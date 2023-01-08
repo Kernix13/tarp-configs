@@ -17,7 +17,7 @@ function Configs() {
     <div>
       <h1 className="text-4xl md:text-5xl mb-6 text-gray-500 text-center">Configurations In Detail</h1>
       <p>
-        All <span className="italic">practical</span> tarp configurations fall into 1 of 4 categories: 1. <span className="text-lg font-semibold">{categories[0]}</span>, 2. <span className="text-lg font-semibold">{categories[1]}</span>, 3. <span className="text-lg font-semibold">{categories[2]}</span>, or 4. <span className="text-lg font-semibold">{categories[3]}</span>. There are 33 total tarp variations on this page for the following 21 types:
+        All <em>practical</em> tarp configurations fall into 1 of 4 categories: 1. <span className="text-lg font-semibold">{categories[0]}</span>, 2. <span className="text-lg font-semibold">{categories[1]}</span>, 3. <span className="text-lg font-semibold">{categories[2]}</span>, or 4. <span className="text-lg font-semibold">{categories[3]}</span>. There are 33 total tarp variations on this page for the following 21 types:
       </p>
       <div className="grid grid-cols-1 gap-4 justify-items-center items-start sm:grid-cols-2 md:grid-cols-4">
         <div>
@@ -87,22 +87,25 @@ function Configs() {
         <li>
           Your <strong>chair sitting height</strong> and <strong>chair sitting depth</strong> is used to calculate whether or not you can use a chair under the tarp.
         </li>
-        <li>For chair sitting height just measure the height of where the top of your head is while sitting in your chair.</li>
+        <li>For chair sitting height, just measure the height of where the top of your head is while sitting in your chair.</li>
         <li>Chair sitting depth should be measured from the center of your body (your head) to whatever part of your body sticks out past your chair (your knees or feet).</li>
       </ul>
       <h3 className="text-2xl mb-2 mt-5">Miscellaneous Notes</h3>
-      <p className="my-3">For rectangle tarps, the short side is used as the length, the long side as the width. For example, an 6' x 10' tarp has a length of 6 feet, and a width of 10 feet. Feel free to reverse those on the form if you think it would be better for you.</p>
+      <p className="my-3">For rectangle tarps, the short side is used as the length, the long side as the width. For example, a 6' x 10' tarp has a length of 6 feet, and a width of 10 feet. Feel free to reverse those on the form if you think it would be better for you.</p>
       <p className="my-3">
-        <span className="font-bold">Ridgeline heights</span> (the most important calculation) are calculated at the point where the sitting height is at least 3-4 inches below the tarp. Your <span className="font-bold">Sitting Depth</span> (<em>7/32 * your height</em>) is subtracted from the tarp <em>cover</em> to determine if you can sit under the tarp design. You may either raise the ridgeline or a larger lean angle or opt not to stake your tarp using guylines instead of directly to the ground.
+        <span className="font-bold">Ridgeline heights</span> (the most important calculation) are calculated at the point where your sitting height is at least 3-4 inches below the tarp based on your sitting depth. 
+      </p>
+      <p className="my-3">
+        Your <span className="font-bold">Sitting Depth</span> (<em>7/32 * your height</em>) is subtracted from the tarp <em>cover</em> to determine if you can sit under the tarp design without hitting the tarp with your head. You may either raise the ridgeline, use a larger lean angle, or opt to stake your tarp using guylines (in conjucntion with raising the ridgeline) instead of staking directly to the ground.
       </p>
       <p className="mb-3">
-        For almost every configuration on this page, an alternate ridgeline height is calculated for large tarps. In that case the ridgeline height is set to <span className="italic font-bold">your height.</span>.
+        For almost every configuration on this page, an alternate ridgeline height is calculated for large tarps. In that case the ridgeline height is set to <span className="italic font-bold">your height</span>. Feel free to change that height as you see fit.
       </p>
       <p className="mb-3">Also, some configurations require either more than one ridgeline or one ridgeline and poles. It's up to you what combination of poles and ridgelines you want to use, but if you do not have tie-out points where required then you will need an additional ridgeline or two. </p>
       <h2 id="lean-to-configuration" className="text-3xl mt-12 mb-4 text-gray-500 text-center">
         <span className="font-bold">Lean-To</span> Configurations
       </h2>
-      <p className="mb-3">The configurations ("configs") in this section are variations of the standard Lean-To set-up. All "configs" in this category:</p>
+      <p className="mb-3">The configurations ("configs") in this section are variations of the standard Lean-To set-up. All configs in this category:</p>
       <ul className="list-disc ml-4 mt-2 mb-6">
         <li>
           Are calculated with a <em>lean</em> between 30 and 50-degrees.
@@ -120,15 +123,15 @@ function Configs() {
       <h3 id="flat-roof-cfly" className="text-2xl mt-6 mb-4 text-gray-500 font-semibold">
         Flat Roof C-Fly
       </h3>
-      <p className="mb-3">This is also called an Open Tube tent and is basically a Flat-Roof Lean-To with a floor. It's a good way to open the shelter for air flow and scenery.</p>
+      <p className="mb-3">This is also called an Open Tube tent and is basically a Flat-Roof Lean-To with a floor. If you have a large rectangular tarp, this is a good option for a ground cover. Make sure you use a tough tarp like canvas or similar materials. A silnylon would not hold up well to abrasion from the ground.</p>
       <h3 id="backwall-lt" className="text-2xl mt-6 mb-4 text-gray-500 font-semibold">
         Back-Wall Lean-To
       </h3>
-      <p className="mb-3">This config is the opposite of a Flat Roof Lean-To: a vertical wall into the lean vs. the lean into a horizontal roof. The back-wall folds occur at the bottom 1/4 or 1/3 points of the tarp. This design gets you to a sitting height faster than other configs.</p>
+      <p className="mb-3">This config is the opposite of a Flat Roof Lean-To: a vertical back wall and then the lean vs. the lean going into a horizontal roof. The back-wall folds occur at the bottom 1/4 or 1/3 points of the tarp. This design gets you to a sitting height faster than other configs.</p>
       <h3 id="bwfr-lt" className="text-2xl mt-6 mb-4 text-gray-500 font-semibold">
         Back-Wall Flat-Roof Lean-To (BWFRLT)
       </h3>
-      <p className="mb-3">A Back-Wall / Flat-Roof combination. You need a large tarp for this design since the 'lean' is only 1/3 or 1/2 the width of your tarp There are 2 variations: 1) the folds at the 1/4 and 3/4 points, or 2) the folds at the 1/3 and 2/3 points.</p>
+      <p className="mb-3">A Back-Wall / Flat-Roof combination. You need a large tarp for this design since the lean is only 1/3 or 1/2 the width of your tarp There are 2 variations: 1) the folds at the 1/4 and 3/4 points, or 2) the folds at the 1/3 and 2/3 points.</p>
       <p className="my-6 text-2xl">Here are the details and fold lines for the types listed above:</p>
       <div className="grid grid-cols-1 gap-12 xl:gap-6 xl:grid-cols-2">
         {AllConfigs[0].map((config, i) => (
@@ -163,7 +166,7 @@ function Configs() {
         <li>
           The first 3 configs are calculated with an A-Frame <em>lean</em> between 37 and 75-degrees.
         </li>
-        <li>The A-Frame, AF LEan-To and Open Stall can use a square or rectangular tape, the Tube tent and A-Frame C-Fly requires a 1:2 ratio rectangle tarp.</li>
+        <li>The A-Frame, AF Lean-To and Open Stall can use a square or rectangular tape, the Tube tent and A-Frame C-Fly requires a 1:2 ratio rectangle tarp.</li>
       </ul>
       <h3 id="aframe" className="text-2xl mt-6 mb-4 text-gray-500 font-semibold">
         A-Frame
@@ -269,7 +272,7 @@ function Configs() {
       <h2 id="tent-configuration" className="text-3xl mt-12 mb-4 text-gray-500 text-center">
         <span className="font-bold">Tent</span> Configurations
       </h2>
-      <p className="mb-3">My rule for a tarp tent is that 4+ "points" of cover are required. That means the roof plus 3 walls, and preferably a portion of the 4th wall. Given that definition, the Plow Point set-up would also fit into this category.</p>
+      <p className="mb-3">My rule for a tarp tent is that 4+ "points" of cover are required. That means the roof plus 3 walls, and preferably a portion of the 4th wall. Given that definition, the Plow Point and Tube Tent set-ups could possibly fit into this category.</p>
       <h3 id="sidewall-lt" className="text-2xl mt-6 mb-4 text-gray-500 font-semibold">
         Side-Wall Lean-To
       </h3>

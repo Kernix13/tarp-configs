@@ -1,9 +1,9 @@
 const ConfigTypes = [
   [
     ["Lean-To (LT)", "lean-to"],
-    ["Flat-Roof LT", "flatroof-lt"],
+    ["Flat-Roof (FR) LT", "flatroof-lt"],
     ["Flat-Roof C-Fly", "flat-roof-cfly"],
-    ["Back-Wall LT", "backwall-lt"],
+    ["Back-Wall (BW) LT", "backwall-lt"],
     ["BWFR LT", "bwfr-lt"]
   ],
   [

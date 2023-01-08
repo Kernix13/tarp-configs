@@ -5,7 +5,7 @@ function Calcs() {
   return (
     <div className="mb-16">
       <h1 className="text-4xl md:text-5xl text-gray-500 text-center mb-12">Calculations used in the JavaScript Files</h1>
-      <p className="mb-2">My Javascript variable names do not match the names in the equations on this page.</p>
+      <p className="mb-2 text-sm italic text-slate-600">FYI for developers: My JavaScript variable names do not match the names in the equations on this page.</p>
       <p className="font-bold mb-2">Equations common to nearly all configurations:</p>
       <p className="mb-4">
         Some configurations (A-Frame, Flat Roofs, ...) do not use <span className="italic">Sit Cover</span>, <span className="italic">Sit Cover Tarp Height</span>, <span className="italic">Chair Cover</span>, and <span className="italic">Chair Cover Tarp Height</span>.
@@ -57,7 +57,7 @@ function Calcs() {
 
       <h2 className="text-3xl mt-12 mb-1">A-Frame calculations</h2>
       <p className="mt-4">
-        1. <span className="italic">i (angle)</span> is 60-degrees for Tube Tent and Flat-Roof C-Fly, 70 &amp; 30 for A-Frame C-Fly, and ranges from 37 to 75-degrees for A-Frame and Side-Wall AF.
+        1. <span className="italic">i (angle)</span> is 60-degrees for Tube Tent and Flat-Roof C-Fly, 70 &amp; 30-degrees for A-Frame C-Fly, and ranges from 37 to 75-degrees for A-Frame and Side-Wall AF.
       </p>
       <div className="flex flex-col flex-wrap mt-6 mx-2 md:flex-row">
         {AllCalcs[1].map((item, i) => (
@@ -86,7 +86,7 @@ function Calcs() {
 
       <h2 className="text-3xl mt-12 mb-1">Tent calculations</h2>
       <p className="mt-4">
-        1a. <span className="italic">i (angle)</span> is all over the place for these configs: Bakers Wind Shed 27.5, Lavvu 60, and Miners Tent 67.5. The Side-Wall LT and Holden configs for each rectangle ration have 2 angles: 1. for the side walls, 2. for the main lean.
+        1a. <span className="italic">i (angle)</span> is all over the place for these configs: Bakers Wind Shed 27.5, Lavvu 60, and Miners Tent 67.5. The Side-Wall LT and Holden configs for each rectangle ratio have 2 angles: 1. for the side walls, 2. for the main lean.
       </p>
       <p className="mt-2">
         1b. <span className="italic">Side-Wall LT and Holden Tent angles: </span> Side-Wall LT 1:2 60, 33.3 | Side-Wall LT 3:5 55, 29 | Side-Wall LT 2:3 58, 27 | Holden Tent 1:2 50, 45 | Holden Tent 3:5 45, 40 | Holden Tent 2:3 56, 38 | Holden Tent 3:4 55, 33 | Holden Tent 4:5 58, 300 |
