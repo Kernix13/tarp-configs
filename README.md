@@ -23,6 +23,11 @@ I need some help on the geometry for the Tent configurations. I will be contacti
 1. The app alculates the height for user's ridgeline or ridge pole, sleeping clearance, sitting clearance, chair sitting clearance, and diagonal sleeping clearance.
 1. For the time being I have a `Calcs` page which shows all the calculations for the tarp configurations. I may remove that page if it doesn't make sense to have it.
 
+## Setup
+
+1. Run `npm install` to install the development dependencies.
+1. Run `npm start` to run the dev server and open the app at `http://localhost:3000/`
+
 ## Contributing
 
 I am open to contributions but I have not created a license yet or all the other requirements.
