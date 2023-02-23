@@ -44,44 +44,44 @@ function Home() {
         <form onSubmit={handleSubmit} id="user-form" className="shadow-lg shadow-slate-400 basis-5/12 bg-gradient-to-br from-slate-50 to-slate-200 mb-4 p-4 xl:basis-5/12">
           <div className="flex flex-col justify-center lg:flex-row md:justify-between">
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="height" className="text-black text-xl lg:text-base pt-4 sm:pt-0" htmlFor="height">
+              <label className="text-black text-xl lg:text-base pt-4 sm:pt-0" htmlFor="height">
                 Height:
               </label>
               <input name="userdimensions" id="height" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.height} onChange={e => state.setHeight(e.target.value)} ref={heightRef} />
             </div>
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="bodywidth" className="text-black text-xl lg:text-base" htmlFor="body-width">
+              <label className="text-black text-xl lg:text-base" htmlFor="body-width">
                 Body width:{" "}
               </label>
-              <input name="userdimensions" id="bodywidth" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.bodyWidth} onChange={e => state.setBodyWidth(e.target.value)} />
+              <input name="userdimensions" id="body-width" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.bodyWidth} onChange={e => state.setBodyWidth(e.target.value)} />
             </div>
           </div>
           <div className="flex flex-col justify-center lg:flex-row md:justify-between">
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="chairheight" className="text-black text-xl lg:text-base" htmlFor="chair-height">
+              <label className="text-black text-xl lg:text-base" htmlFor="chair-height">
                 Chair sit height:
               </label>
-              <input name="userdimensions" id="chairheight" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.chairHeight} onChange={e => state.setChairHeight(e.target.value)} />
+              <input name="userdimensions" id="chair-height" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.chairHeight} onChange={e => state.setChairHeight(e.target.value)} />
             </div>
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="chairdepth" className="text-black text-xl lg:text-base" htmlFor="chair-depth">
+              <label className="text-black text-xl lg:text-base" htmlFor="chair-depth">
                 Chair sit depth:{" "}
               </label>
-              <input name="userdimensions" id="chairdepth" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.chairDepth} onChange={e => state.setChairDepth(e.target.value)} />
+              <input name="userdimensions" id="chair-depth" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Inches only" value={state.chairDepth} onChange={e => state.setChairDepth(e.target.value)} />
             </div>
           </div>
           <div className="flex flex-col justify-center lg:flex-row md:justify-between">
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="tarplength" className="text-black text-xl lg:text-base" htmlFor="tarp-length">
+              <label className="text-black text-xl lg:text-base" htmlFor="tarp-length">
                 Tarp Length:
               </label>
-              <input name="userdimensions" id="tarplength" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Feet only" value={state.tarpLength} onChange={e => state.setTarpLength(e.target.value)} />
+              <input name="userdimensions" id="tarp-length" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Feet only" value={state.tarpLength} onChange={e => state.setTarpLength(e.target.value)} />
             </div>
             <div className="user-dims flex flex-col justify-center items-center lg:justify-start lg:items-start">
-              <label for="tarpwidth" className="text-left text-black text-xl lg:text-base" htmlFor="tarp-width">
+              <label className="text-left text-black text-xl lg:text-base" htmlFor="tarp-width">
                 Tarp Width:
               </label>
-              <input name="userdimensions" id="tarpwidth" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Feet only" value={state.tarpWidth} onChange={e => state.setTarpWidth(e.target.value)} />
+              <input name="userdimensions" id="tarp-width" type="number" className="border-solid border border-slate-400 pl-2 w-48 sm:w-40 lg:w-36 mb-4 mt-1 placeholder:text-slate-500" placeholder="Feet only" value={state.tarpWidth} onChange={e => state.setTarpWidth(e.target.value)} />
             </div>
           </div>
 
