@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <p className="text-center">
           Copyright &copy; {footerYear} | Open source project by{" "}
-          <a href="https://kernixwebdesign.com/resume-portfolio.html" className="font-bold">
+          <a href="https://courageous-cuchufli-816711.netlify.app/" className="font-bold">
             Jim Kernicky
           </a>
         </p>
