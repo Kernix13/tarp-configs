@@ -21,7 +21,7 @@ function Configs() {
       </p>
       <div className="grid grid-cols-1 gap-4 justify-items-center items-start sm:grid-cols-2 md:grid-cols-4">
         <div>
-          <p className="text-2xl mt-6 mb-4 text-gray-500">Lean-To</p>
+          <h2 className="text-2xl mt-6 mb-4 text-gray-500">Lean-To</h2>
           <ol className="list-decimal mt-4 ml-4">
             {ConfigTypes[0].map((type, index) => (
               <li key={index}>
@@ -33,7 +33,7 @@ function Configs() {
           </ol>
         </div>
         <div>
-          <p className="text-2xl mt-6 mb-4 text-gray-500">A-Frame</p>
+          <h2 className="text-2xl mt-6 mb-4 text-gray-500">A-Frame</h2>
           <ol className="list-decimal mt-4 ml-4">
             {ConfigTypes[1].map((type, index) => (
               <li key={index}>
@@ -45,7 +45,7 @@ function Configs() {
           </ol>
         </div>
         <div>
-          <p className="text-2xl mt-6 mb-4 text-gray-500">Diagonal</p>
+          <h2 className="text-2xl mt-6 mb-4 text-gray-500">Diagonal</h2>
           <ol className="list-decimal mt-4 ml-4">
             {ConfigTypes[2].map((type, index) => (
               <li key={index}>
@@ -57,7 +57,7 @@ function Configs() {
           </ol>
         </div>
         <div>
-          <p className="text-2xl mt-6 mb-4 text-gray-500">Tent</p>
+          <h2 className="text-2xl mt-6 mb-4 text-gray-500">Tent</h2>
           <ol className="list-decimal mt-4 ml-4">
             {ConfigTypes[3].map((type, index) => (
               <li key={index}>
@@ -69,7 +69,7 @@ function Configs() {
           </ol>
         </div>
       </div>
-      <h2 className="text-2xl sm:text-3xl mt-8">Home page form fields explained</h2>
+      <h2 className="text-gray-500 text-2xl sm:text-3xl mt-8">Home page form fields explained</h2>
       <ul className="list-disc mt-4 ml-4">
         <h3 className="font-bold mb-2">Height</h3>
         <li>
