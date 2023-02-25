@@ -24,6 +24,7 @@ const AllConfigs = [
     {
       id: 1,
       name: "Lean-To",
+      alt: "Lean-To fold and stake points",
       notes: "Stake C & D to the ground, tie A & B on the ridgeline.",
       imgUrl: ltfold0,
       tarps: "All",
@@ -41,6 +42,7 @@ const AllConfigs = [
     {
       id: 2,
       name: "Flat Roof LT 50",
+      alt: "Flat Roof 50% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to E & F, tie A & B to the ridgeline.",
       imgUrl: ltfold1,
       tarps: "All",
@@ -58,6 +60,7 @@ const AllConfigs = [
     {
       id: 3,
       name: "Flat Roof LT 33",
+      alt: "Flat Roof 33% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to E & F, tie A & B to the ridgeline.",
       imgUrl: ltfold2,
       tarps: "All",
@@ -75,6 +78,7 @@ const AllConfigs = [
     {
       id: 4,
       name: "Flat Roof LT 25",
+      alt: "Flat Roof 25% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to E & F, tie A & B to the ridgeline.",
       imgUrl: ltfold3,
       tarps: "All",
@@ -92,6 +96,7 @@ const AllConfigs = [
     {
       id: 5,
       name: "Flat-Roof C-Fly",
+      alt: "Flat Roof C-Fly fold and stake points",
       notes: "Stake C, D, G & H, tie poles to A & B, tie E & F to the ridgeline.",
       imgUrl: ltfold4,
       tarps: "Rectangle",
@@ -109,6 +114,7 @@ const AllConfigs = [
     {
       id: 6,
       name: "Back-Wall LT 25",
+      alt: "Back Wall 25% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to E & F, tie A & B to the ridgeline.",
       imgUrl: ltfold5,
       tarps: "All",
@@ -126,6 +132,7 @@ const AllConfigs = [
     {
       id: 7,
       name: "Back-Wall LT 33",
+      alt: "Back Wall 33% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to E & F, tie A & B to the ridgeline.",
       imgUrl: ltfold6,
       tarps: "All",
@@ -143,6 +150,7 @@ const AllConfigs = [
     {
       id: 8,
       name: "Back Wall Flat Roof LT 25",
+      alt: "Back Wall Flat Roof 25% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to G & H for back wall and E & F for flat roof, tie A & B to the ridgeline.",
       imgUrl: ltfold7,
       tarps: "All",
@@ -160,6 +168,7 @@ const AllConfigs = [
     {
       id: 9,
       name: "Back Wall Flat Roof LT 33",
+      alt: "Back Wall Flat Roof 33% Lean-To fold and stake points",
       notes: "Stake C & D, tie poles to G & H for back wall and E & F for flat roof, tie A & B to the ridgeline.",
       imgUrl: ltfold8,
       tarps: "All",

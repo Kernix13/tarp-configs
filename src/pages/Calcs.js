@@ -6,7 +6,7 @@ function Calcs() {
     <div className="mb-16">
       <h1 className="text-4xl md:text-5xl text-gray-500 text-center mb-12">Calculations used in the JavaScript Files</h1>
       <p className="mb-2 text-sm italic text-slate-600">FYI for developers: My JavaScript variable names do not match the names in the equations on this page.</p>
-      <p className="font-bold mb-2">Equations common to nearly all configurations:</p>
+      <h2 className="text-3xl mt-12 mb-1">Equations common to nearly all configurations</h2>
       <p className="mb-4">
         Some configurations (A-Frame, Flat Roofs, ...) do not use <span className="italic">Sit Cover</span>, <span className="italic">Sit Cover Tarp Height</span>, <span className="italic">Chair Cover</span>, and <span className="italic">Chair Cover Tarp Height</span>.
       </p>
@@ -103,7 +103,7 @@ function Calcs() {
       </div>
       <p className="m-8">
         Feel free to{" "}
-        <a href="https://kernixwebdesign.com/contact/" className="text-blue-500 hover:underline hover:underline-offset-2 hover:text-blue-700">
+        <a href="https://kernixwebdesign.com/contact/" className="text-blue-600 hover:underline hover:underline-offset-2 hover:text-blue-700">
           contact me
         </a>{" "}
         if you feel any of these calculations are inaccurate.

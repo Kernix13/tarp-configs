@@ -25,7 +25,7 @@ function Configs() {
           <ol className="list-decimal mt-4 ml-4">
             {ConfigTypes[0].map((type, index) => (
               <li key={index}>
-                <a href={`#` + type[1]} className="text-blue-500 hover:underline hover:underline-offset-2 hover:text-blue-700">
+                <a href={`#` + type[1]} className="text-blue-600 hover:underline hover:underline-offset-2 hover:text-blue-700">
                   {type[0]}
                 </a>
               </li>
@@ -139,7 +139,7 @@ function Configs() {
             <div className="w-3/4 sm:w-5/8 xl:w-1/2 self-center mb-8 xl:mb-0 xl:self-start">
               {/* <img src={config.imgUrl} alt={config.name + ` tarp folds`} className="w-full m-0 p-0" /> */}
               {/* <img src={leantoimages[i]} alt={config.name} className="w-full m-0 p-0" /> */}
-              <img src={process.env.PUBLIC_URL + leantoimages[i]} alt={config.name} className="w-full m-0 p-0" />
+              <img src={process.env.PUBLIC_URL + leantoimages[i]} alt={config.alt} className="w-full m-0 p-0" />
             </div>
             <div className="w-full px-4 ml-4 xl:w-1/2 border-l border-gray-400">
               <h4 id="lean-to" className="text-2xl font-semibold mt-0 mb-2 text-teal-600">
