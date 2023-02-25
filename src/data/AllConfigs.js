@@ -188,6 +188,7 @@ const AllConfigs = [
     {
       id: 10,
       name: "A-Frame",
+      alt: "A Frame fold and stake points",
       notes: "Stake A, B, C & D to the ground, tie E & F on the ridgeline.",
       imgUrl: ltfold1,
       tarps: "All",
@@ -205,6 +206,7 @@ const AllConfigs = [
     {
       id: 11,
       name: "A-Frame LT 33",
+      alt: "A Frame Lean-To 33% fold and stake points",
       notes: "Stake C & D to the ground, tie E & F on the ridgeline, tie guylines at A & B.",
       imgUrl: ltfold2,
       tarps: "All",
@@ -222,6 +224,7 @@ const AllConfigs = [
     {
       id: 12,
       name: "A-Frame LT 25",
+      alt: "A Frame Lean-To 25% fold and stake points",
       notes: "Stake C & D to the ground, tie E & F on the ridgeline, tie guylines at A & B.",
       imgUrl: ltfold3,
       tarps: "All",
@@ -239,6 +242,7 @@ const AllConfigs = [
     {
       id: 13,
       name: "Side-Wall AF 25",
+      alt: "Side-Wall A Frame 25% fold and stake points",
       notes: "Stake A, B, C & D, tie G & H to center ridgeline, use poles and guylines for E, F, I & J.",
       imgUrl: swaf25,
       tarps: "All",
@@ -256,6 +260,7 @@ const AllConfigs = [
     {
       id: 14,
       name: "Side-Wall AF 33",
+      alt: "Side-Wall A Frame 33% fold and stake points",
       notes: "Stake A, B, C & D, tie G & H to center ridgeline, use poles and guylines for E, F, I & J.",
       imgUrl: swaf33,
       tarps: "Rectangle",
@@ -273,6 +278,7 @@ const AllConfigs = [
     {
       id: 15,
       name: "Tube tent",
+      alt: "Tube tent fold and stake points",
       notes: "Stake G & H, tie E & F to the ridgeline, stake A & C together as well as and B & D to the ground.",
       imgUrl: ltfold4,
       tarps: "Rectangle 1:2",
@@ -290,6 +296,7 @@ const AllConfigs = [
     {
       id: 16,
       name: "AF C-Fly",
+      alt: "A-Frame C-Fly fold and stake points",
       notes: "Stake C, D, G & H, tie E & F to ridgeline, use guylines at A & B. ",
       imgUrl: ltfold4,
       tarps: "Rectangle",
@@ -307,6 +314,7 @@ const AllConfigs = [
     {
       id: 17,
       name: "Open Stall",
+      alt: "Open Stall fold and stake points",
       notes: "Stake C & D, use poles and guylines for G, H, A & B, tie E & F to ridgeline.",
       imgUrl: ltfold4,
       tarps: "All",
@@ -326,6 +334,7 @@ const AllConfigs = [
     {
       id: 18,
       name: "Diamond",
+      alt: "Diamond fold and stake points",
       notes: "Stake B & C to the ground, tie A & D to the ridgeline.",
       imgUrl: diamond,
       tarps: "Square",
@@ -343,6 +352,7 @@ const AllConfigs = [
     {
       id: 19,
       name: "Plow Point",
+      alt: "Plow Point fold and stake points",
       notes: "Stake A, B and C, tie D to a pole guyline or along A-D ridgeline.",
       imgUrl: diamond,
       tarps: "Square",
@@ -360,6 +370,7 @@ const AllConfigs = [
     {
       id: 20,
       name: "Adirondack",
+      alt: "Adirondack fold and stake points",
       notes: "Stake G & F then side wall points B & C, tie E & H to ridgeline, attach A to guyline or pole.",
       imgUrl: adirondack,
       tarps: "Square",
@@ -377,6 +388,7 @@ const AllConfigs = [
     {
       id: 21,
       name: "Hex Diamond",
+      alt: "Hex Diamond fold and stake points",
       notes: "Stake G & H and E & F, tie A & D to the ridgeline.",
       imgUrl: hexd,
       tarps: "Square",
@@ -394,6 +406,7 @@ const AllConfigs = [
     {
       id: 22,
       name: "Arrowhead Wedge",
+      alt: "Arrowhead Wedge fold and stake points",
       notes: "Stake B, D & C, tie E & F to ridgeline, tie A to guyline or pole.",
       imgUrl: arrowhead,
       tarps: "Square",
@@ -413,6 +426,7 @@ const AllConfigs = [
     {
       id: 23,
       name: "Side Wall LT 1:2",
+      alt: "1:2 rectangular ratio Side Wall LT fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: swlt,
       tarps: "Rectangle 1:2",
@@ -430,6 +444,7 @@ const AllConfigs = [
     {
       id: 24,
       name: "Side Wall LT 3:5",
+      alt: "3:5 rectangular ratio Side Wall LT fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: swlt,
       tarps: "Rectangle 3:5",
@@ -447,6 +462,7 @@ const AllConfigs = [
     {
       id: 25,
       name: "Side Wall LT 2:3",
+      alt: "2:3 rectangular ratio Side Wall LT fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: swlt,
       tarps: "Rectangle 2:3",
@@ -464,6 +480,7 @@ const AllConfigs = [
     {
       id: 26,
       name: "Holden Tent 1:2",
+      alt: "1:2 rectangular ratio Holden Tent fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E to pole.",
       imgUrl: holden,
       tarps: "Rectangle 1:2",
@@ -481,6 +498,7 @@ const AllConfigs = [
     {
       id: 27,
       name: "Holden Tent 3:5",
+      alt: "3:5 rectangular ratio Holden Tent fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: holden,
       tarps: "Rectangle 3:5",
@@ -498,6 +516,7 @@ const AllConfigs = [
     {
       id: 28,
       name: "Holden Tent 2:3",
+      alt: "2:3 rectangular ratio Holden Tent fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: holden,
       tarps: "Rectangle 2:3",
@@ -515,6 +534,7 @@ const AllConfigs = [
     {
       id: 29,
       name: "Holden Tent 3:4",
+      alt: "3:4 rectangular ratio Holden Tent fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: holden,
       tarps: "Rectangle 3:4",
@@ -532,6 +552,7 @@ const AllConfigs = [
     {
       id: 30,
       name: "Holden Tent 4:5",
+      alt: "4:5 rectangular ratio Holden Tent fold and stake points",
       notes: "Stake A & B and C & D on each side, tie E & F to ridgeline.",
       imgUrl: holden,
       tarps: "Rectangle 4:5",
@@ -549,6 +570,7 @@ const AllConfigs = [
     {
       id: 31,
       name: "Miners Tent",
+      alt: "Miners Tent fold and stake points",
       notes: "Stake B, C, E, I, H and G, attach E to pole.",
       imgUrl: miners,
       tarps: "Rectangle 1:2",
@@ -566,6 +588,7 @@ const AllConfigs = [
     {
       id: 32,
       name: "Bakers Wind Shed",
+      alt: "Bakers Wind Shed fold and stake points",
       notes: "Stake B, D, G & H, tie E and F to ridgeline.",
       imgUrl: bakers,
       tarps: "Rectangle 1:2",
@@ -583,6 +606,7 @@ const AllConfigs = [
     {
       id: 33,
       name: "Lavvu",
+      alt: "Lavvu fold and stake points",
       notes: "Stake A, E, G and C, tie D to ridgepole, alow B, F & H to hang.",
       imgUrl: ltfold4,
       tarps: "Rectangle 1:2",
