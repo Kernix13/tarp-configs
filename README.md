@@ -12,7 +12,7 @@ This React app calculates the ridgeline height for 33 different tarp configurati
 
 This application would be of interest to bushcrafters, wilderness survivalists, backpackers and campers.
 
-This is personal project since I practice bushcraft and wilderness survival techniques. Check out the [live version](https://timely-longma-59205e.netlify.app/) on Netlify.
+This is personal project since I practice bushcraft and wilderness survival techniques. Check out the [live version](https://react-tarp-configurations.netlify.app/) on Netlify.
 
 I need some help on the geometry for the Tent configurations. I will be contacting someone about that but also look for an issue on the topic.
 
